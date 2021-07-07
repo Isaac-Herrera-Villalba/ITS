@@ -1,0 +1,59 @@
+body
+{
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+header
+{  
+  height: 4rem;
+  padding: 0 2rem; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo,
+footer .logo
+{
+  border-radius: 10rem;
+  width: 5rem;
+  height: 5rem;
+}
+
+main
+.fila_1, 
+.fila_2,
+.fila_3,
+.fila_4,
+.fila_5
+{
+  display: flex;
+  width: ;
+  height: ;
+}
+
+footer
+{
+  height: 6rem;
+  padding: 0 2rem;
+  display:flex;
+  align-items: center; 
+  justify-content: space-between;
+}
+
+footer .caja_condiciones
+{
+  display: ;
+  width: ;
+  height: ;
+}
+
+footer .logo_red
+{
+  border-radius: 10rem;
+  width: 5rem;
+  height: 5rem;
+}
+
