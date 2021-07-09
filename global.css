@@ -3,6 +3,12 @@ body
   margin: 0;
   width: 100vw;
   height: 100vh;
+  background: linear-gradient(
+        to bottom right,
+        #15054E,
+        #3d065f 70%,
+        #10054d
+        );
 }
 
 header
@@ -22,6 +28,15 @@ footer .logo
   height: 5rem;
 }
 
+main {
+    height: calc(100vh - 10rem); 
+    padding: 0vw 5vw;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+
 main
 .fila_1, 
 .fila_2,
@@ -29,7 +44,7 @@ main
 .fila_4,
 .fila_5
 {
-  display: flex;
+  display: inline-block;
   width: ;
   height: ;
 }
