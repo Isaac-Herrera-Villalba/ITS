@@ -1,18 +1,17 @@
-body
-{
+body{
   margin: 0;
   width: 100vw;
   height: 100vh;
   background: linear-gradient(
         to bottom right,
-        #15054E,
-        #3d065f 70%,
-        #10054d
+        #bdc6e4,
+        #7b8ae0,
+        #6d6aee 50%,
+        #b7b8d1
         );
 }
 
-header
-{  
+header{  
   height: 4rem;
   padding: 0 2rem; 
   display: flex;
@@ -21,19 +20,34 @@ header
 }
 
 header .logo,
-footer .logo
-{
+footer .logo{
   border-radius: 10rem;
   width: 5rem;
   height: 5rem;
 }
+
+header .box_logo{
+  width: 5rem; 
+  height: 5rem;
+  display:flex; 
+  align-items:center; 
+  justify-content: space-between;
+}
+
+header .logo img{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 10rem;
+}
+
 
 main {
     height: calc(100vh - 10rem); 
     padding: 0vw 5vw;
     display: flex;
     align-items: center;
-    color: #ffffff;
+    justify-content: center;
+    color: #000000;
 }
 
 
@@ -42,15 +56,11 @@ main
 .fila_2,
 .fila_3,
 .fila_4,
-.fila_5
-{
-  display: inline-block;
-  width: ;
-  height: ;
+.fila_5{
+  display: block;
 }
 
-footer
-{
+footer{
   height: 6rem;
   padding: 0 2rem;
   display:flex;
@@ -58,17 +68,9 @@ footer
   justify-content: space-between;
 }
 
-footer .caja_condiciones
-{
-  display: ;
-  width: ;
-  height: ;
-}
-
-footer .logo_red
-{
-  border-radius: 10rem;
-  width: 5rem;
-  height: 5rem;
+footer .logo_red{
+  border-radius: 5rem;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
